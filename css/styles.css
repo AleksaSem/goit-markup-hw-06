@@ -691,7 +691,8 @@ address {
 .footer .link {
   display: inline-block;
   letter-spacing: 0.03em;
-  color: #acacb0;
+  color: rgb(255, 255, 255, 0.6);
+  line-height: 1.71;
 
   transition: color var(--animation);
 }
@@ -704,6 +705,7 @@ address {
 .address .address-street {
   display: inline-block;
   margin-bottom: 9px;
+  color: var(--white-color);
 }
 .address .link:not(:last-child) {
   margin-bottom: 9px;
@@ -726,7 +728,16 @@ address {
   width: 231px;
 }
 
-.footer-social .footer-caption {
+/* .footer-social .footer-caption {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+} */
+
+.footer-caption {
   margin-bottom: 20px;
 
   font-weight: 700;
